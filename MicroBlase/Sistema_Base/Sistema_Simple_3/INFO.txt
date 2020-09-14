@@ -1,0 +1,9 @@
+Implementacion del procesador MicroBlaze con los siguientes perifericos:
+- GPIO0 channel 1 -> push buttons		0x4000_0000
+- GPIO0 channel 2 -> dip switches
+- GPIO1 channel 1 -> 4 leds			0x4001_0000
+- GPIO1 channel 2 -> 4 rgb leds
+- GPIO2 channel 1 -> shield_dp0_dp19		0x4002_0000
+- GPIO2 channel 2 -> shield_dp26_dp41
+- UART						0x4060_0000
+- DDR3						0x8000_0000

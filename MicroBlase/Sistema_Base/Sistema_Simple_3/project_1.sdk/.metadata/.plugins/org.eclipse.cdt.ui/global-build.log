@@ -1,0 +1,689 @@
+12:34:53 **** Build of project testApp_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Running Make libs in microblaze_0/libsrc/bram_v4_2/src"
+make -C microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_6/src"
+make -C microblaze_0/libsrc/cpu_v2_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_3/src"
+make -C microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/intc_v3_7/src"
+make -C microblaze_0/libsrc/intc_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/standalone_v6_6/src"
+make -C microblaze_0/libsrc/standalone_v6_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling standalone";
+microblaze_sleep.c:74:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_2/src"
+make -C microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift -mxl-multiply-high -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project testApp ****
+
+Nothing to build for project testApp
+12:35:18 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/sdk/2018.1/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/7.2.0/../../../../microblaze-xilinx-elf/lib/bs/m/mh/le/crtinit.o: In function `_crtinit':
+(.text+0x78): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [testApp.elf] Error 1
+12:35:26 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:25:4: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
+    sleep(1);
+    ^~~~~
+    strsep
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7048	    452	   3116	  10616	   2978	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+12:37:36 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+12:38:13 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6996	    452	   3120	  10568	   2948	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+12:38:22 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+12:39:33 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:11:17: error: expected identifier or '(' before ';' token
+  int psb_check, ;
+                 ^
+../src/testApp.c:19:28: error: 'XPAR_SWITCHES_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_INTC_0_DEVICE_ID'?
+     XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID);
+                            ^~~~~~~~~~~~~~~~~~~~~~~
+                            XPAR_INTC_0_DEVICE_ID
+../src/testApp.c:19:28: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/testApp.o] Error 1
+12:39:45 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:19:28: error: 'XPAR_SWITCHES_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_INTC_0_DEVICE_ID'?
+     XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID);
+                            ^~~~~~~~~~~~~~~~~~~~~~~
+                            XPAR_INTC_0_DEVICE_ID
+../src/testApp.c:19:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:11:17: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check, dip_check;
+                 ^~~~~~~~~
+make: *** [src/testApp.o] Error 1
+12:45:06 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:11:17: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check, dip_check;
+                 ^~~~~~~~~
+../src/testApp.c:10:17: warning: unused variable 'dip' [-Wunused-variable]
+     XGpio push, dip;
+                 ^~~
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6996	    452	   3120	  10568	   2948	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+12:45:24 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+12:47:19 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:11:17: warning: unused variable 'dip_check' [-Wunused-variable]
+  int psb_check, dip_check;
+                 ^~~~~~~~~
+../src/testApp.c:10:17: warning: unused variable 'dip' [-Wunused-variable]
+     XGpio push, dip, leds;
+                 ^~~
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7048	    452	   3116	  10616	   2978	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+12:51:08 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:17:23: error: 'push' undeclared (first use in this function)
+     XGpio_Initialize(&push, XPAR_AXI_GPIO_0_DEVICE_ID);
+                       ^~~~
+../src/testApp.c:17:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:20:23: error: 'leds' undeclared (first use in this function)
+     XGpio_Initialize(&leds, XPAR_AXI_GPIO_1_DEVICE_ID);
+                       ^~~~
+../src/testApp.c:30:36: error: 'dip' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+                                    ^~~
+../src/testApp.c:10:19: warning: unused variable 'gpio_1' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+                   ^~~~~~
+../src/testApp.c:10:11: warning: unused variable 'gpio_0' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+           ^~~~~~
+make: *** [src/testApp.o] Error 1
+12:51:31 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:20:23: error: 'leds' undeclared (first use in this function)
+     XGpio_Initialize(&leds, XPAR_AXI_GPIO_1_DEVICE_ID);
+                       ^~~~
+../src/testApp.c:20:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:28:36: error: 'push' undeclared (first use in this function)
+    psb_check = XGpio_DiscreteRead(&push, 1);
+                                    ^~~~
+../src/testApp.c:30:36: error: 'dip' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+                                    ^~~
+../src/testApp.c:10:19: warning: unused variable 'gpio_1' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+                   ^~~~~~
+make: *** [src/testApp.o] Error 1
+12:53:44 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:30:36: error: 'push' undeclared (first use in this function)
+    psb_check = XGpio_DiscreteRead(&push, 1);
+                                    ^~~~
+../src/testApp.c:30:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:32:36: error: 'dip' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+                                    ^~~
+../src/testApp.c:12:19: warning: unused variable 'gpio_1' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+                   ^~~~~~
+make: *** [src/testApp.o] Error 1
+12:54:40 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:32:36: error: 'push' undeclared (first use in this function)
+    psb_check = XGpio_DiscreteRead(&push, 1);
+                                    ^~~~
+../src/testApp.c:32:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:34:36: error: 'dip' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+                                    ^~~
+../src/testApp.c:14:19: warning: unused variable 'gpio_1' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+                   ^~~~~~
+make: *** [src/testApp.o] Error 1
+12:55:23 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:34:36: error: 'dip' undeclared (first use in this function)
+    dip_check = XGpio_DiscreteRead(&dip, 1);
+                                    ^~~
+../src/testApp.c:34:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:14:19: warning: unused variable 'gpio_1' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+                   ^~~~~~
+make: *** [src/testApp.o] Error 1
+12:55:41 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:14:19: warning: unused variable 'gpio_1' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+                   ^~~~~~
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7072	    452	   3116	  10640	   2990	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+12:55:54 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+12:58:44 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:25:34: error: 'GPIO1_OUTPUT_DIR' undeclared (first use in this function); did you mean 'GPIO0_OUPUT_DIR'?
+  XGpio_SetDataDirection(&gpio_1, GPIO1_OUTPUT_DIR, 0xffffffff);
+                                  ^~~~~~~~~~~~~~~~
+                                  GPIO0_OUPUT_DIR
+../src/testApp.c:25:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:37:33: error: 'GPIO1_CHAN1' undeclared (first use in this function); did you mean 'GPIO0_CHAN1'?
+    XGpio_DiscreteWrite(&gpio_1, GPIO1_CHAN1, 1);
+                                 ^~~~~~~~~~~
+                                 GPIO0_CHAN1
+make: *** [src/testApp.o] Error 1
+13:00:02 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:37:33: error: 'GPIO1_CHAN1' undeclared (first use in this function); did you mean 'GPIO0_CHAN1'?
+    XGpio_DiscreteWrite(&gpio_1, GPIO1_CHAN1, 1);
+                                 ^~~~~~~~~~~
+                                 GPIO0_CHAN1
+../src/testApp.c:37:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/testApp.o] Error 1
+13:00:36 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:32:44: error: 'GPIO0_CHAN1' undeclared (first use in this function); did you mean 'GPIO_CHAN1'?
+    psb_check = XGpio_DiscreteRead(&gpio_0, GPIO0_CHAN1);
+                                            ^~~~~~~~~~~
+                                            GPIO_CHAN1
+../src/testApp.c:32:44: note: each undeclared identifier is reported only once for each function it appears in
+../src/testApp.c:34:44: error: 'GPIO0_CHAN2' undeclared (first use in this function); did you mean 'GPIO0_CHAN1'?
+    dip_check = XGpio_DiscreteRead(&gpio_0, GPIO0_CHAN2);
+                                            ^~~~~~~~~~~
+                                            GPIO0_CHAN1
+../src/testApp.c:37:33: error: 'GPIO1_CHAN1' undeclared (first use in this function); did you mean 'GPIO0_CHAN1'?
+    XGpio_DiscreteWrite(&gpio_1, GPIO1_CHAN1, 1);
+                                 ^~~~~~~~~~~
+                                 GPIO0_CHAN1
+make: *** [src/testApp.o] Error 1
+13:00:47 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:37:33: error: 'GPIO1_CHAN' undeclared (first use in this function); did you mean 'GPIO_CHAN1'?
+    XGpio_DiscreteWrite(&gpio_1, GPIO1_CHAN, 1);
+                                 ^~~~~~~~~~
+                                 GPIO_CHAN1
+../src/testApp.c:37:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/testApp.o] Error 1
+13:00:55 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:37:33: error: 'GPIO_CHAN' undeclared (first use in this function); did you mean 'GPIO_CHAN1'?
+    XGpio_DiscreteWrite(&gpio_1, GPIO_CHAN, 1);
+                                 ^~~~~~~~~
+                                 GPIO_CHAN1
+../src/testApp.c:37:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/testApp.o] Error 1
+13:01:18 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7380	    452	   3120	  10952	   2ac8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:01:23 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:02:15 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7124	    452	   3120	  10696	   29c8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:02:18 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:03:05 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:03:57 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7124	    452	   3120	  10696	   29c8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:04:03 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7124	    452	   3120	  10696	   29c8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:04:21 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:05:01 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+../src/testApp.c: In function 'main':
+../src/testApp.c:14:19: warning: unused variable 'gpio_1' [-Wunused-variable]
+     XGpio gpio_0, gpio_1; // GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+                   ^~~~~~
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7072	    452	   3116	  10640	   2990	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:05:10 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:11:54 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7124	    452	   3120	  10696	   29c8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:12:03 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:12:22 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7096	    452	   3116	  10664	   29a8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:12:39 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:16:28 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7152	    452	   3116	  10720	   29e0	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:16:42 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7408	    452	   3116	  10976	   2ae0	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:16:50 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:18:44 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7428	    452	   3120	  11000	   2af8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:18:54 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:19:30 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7432	    452	   3116	  11000	   2af8	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:19:38 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+13:20:00 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7436	    452	   3120	  11008	   2b00	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+13:20:06 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+18:11:17 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+18:12:37 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7440	    452	   3116	  11008	   2b00	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+18:13:32 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+18:13:48 **** Incremental Build of configuration Debug for project testApp ****
+make all 
+make: Nothing to be done for `all'.
+21:10:32 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7440	    452	   3116	  11008	   2b00	testApp.elf
+'Finished building: testApp.elf.size'
+' '
+21:11:05 **** Auto Build of configuration Debug for project testApp ****
+make all 
+'Building file: ../src/testApp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testApp.o" -I../../testApp_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/testApp.d" -MT"src/testApp.o" -o "src/testApp.o" "../src/testApp.c"
+'Finished building: ../src/testApp.c'
+' '
+'Building target: testApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../testApp_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v10.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "testApp.elf"  ./src/testApp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: testApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size testApp.elf  |tee "testApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7440	    452	   3116	  11008	   2b00	testApp.elf
+'Finished building: testApp.elf.size'
+' '
