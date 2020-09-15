@@ -1,0 +1,9 @@
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/UNSAM/Electronica_Digital_II/MicroBlaze/Sistema_Base/Sistema_Simple_3/project_1.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 52.996 ; gain = 1.039
+INFO: [Common 17-206] Exiting Webtalk at Thu Jul 23 18:21:59 2020...
