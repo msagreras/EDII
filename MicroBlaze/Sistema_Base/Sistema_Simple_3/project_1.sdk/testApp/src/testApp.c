@@ -1,0 +1,42 @@
+#include "xparameters.h"
+#include "xgpio.h"
+
+#define GPIO_CHAN1			1
+#define GPIO_CHAN2			2
+#define GPIO_OUTPUT_DIR		0
+#define GPIO_INPUT_DIR		1
+
+//====================================================
+
+int main (void){
+
+    XGpio gpio_0, gpio_1;	// GPIO0 -> buttons (channel 1) + dip_switches (channel 2)
+    						// GPIO1 -> normal leds (channel 1) + RGB leds (channel 2)
+	int psb_check, dip_check;
+	int i;
+	int val = 1;
+
+    xil_printf("-- Start of the Program --\r\n");
+
+    XGpio_Initialize(&gpio_0, XPAR_AXI_GPIO_0_DEVICE_ID);
+	XGpio_SetDataDirection(&gpio_0, GPIO_CHAN1, GPIO_INPUT_DIR);
+	XGpio_SetDataDirection(&gpio_0, GPIO_CHAN2, GPIO_INPUT_DIR);
+
+    XGpio_Initialize(&gpio_1, XPAR_AXI_GPIO_1_DEVICE_ID);
+	XGpio_SetDataDirection(&gpio_1, GPIO_CHAN1, GPIO_OUTPUT_DIR);
+
+	while (1){
+		psb_check = XGpio_DiscreteRead(&gpio_0, GPIO_CHAN1);
+		xil_printf("Push Buttons Status %x\r\n", psb_check);
+		dip_check = XGpio_DiscreteRead(&gpio_0, GPIO_CHAN2);
+		xil_printf("DIP Switch Status %x\r\n", dip_check);
+
+		val = ~val;
+		XGpio_DiscreteWrite(&gpio_1, GPIO_CHAN1, val & 0x1);
+
+		xil_printf("Hola, mundo!!! \r\n");
+
+		for(i=0; i<100000; i++);
+	}
+}
+
